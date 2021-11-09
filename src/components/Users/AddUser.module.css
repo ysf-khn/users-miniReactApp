@@ -1,0 +1,32 @@
+.card {
+  background-color: #f3f3f3;
+  width: 80%;
+  margin: 2rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+form input {
+  display: block;
+  width: 40%;
+  margin-bottom: 0.25rem;
+}
+
+button {
+  margin-top: 1rem;
+  font: inherit;
+  background: rgb(141, 141, 214);
+  border: none;
+  border-radius: 5px;
+  padding: 0.3rem 0.8rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgb(111, 111, 216);
+}
