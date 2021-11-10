@@ -13,9 +13,15 @@ const AddUser = (props) => {
     setEnteredAge(e.target.value);
   };
 
+  const formSubmitHandler = (e) => {
+    e.preventDefault();
+
+    props.onAddUser(enteredUser, +enteredAge);
+  };
+
   return (
     <div className={classes.card}>
-      <form>
+      <form onSubmit={formSubmitHandler}>
         <label>Username</label>
         <input
           id="username"
